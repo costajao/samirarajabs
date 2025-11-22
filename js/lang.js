@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
           document.getElementById("hero-subtitle").innerHTML  = data[lang].hero_subtitle;
           document.getElementById("about-one").innerHTML  = data[lang].about_one;
           document.getElementById("about-two").innerHTML  = data[lang].about_two;
+          document.getElementById("work-nexa").innerHTML  = data[lang].work_nexa;
           document.getElementById("work-vale").innerHTML  = data[lang].work_vale;
           document.getElementById("work-bb").innerHTML  = data[lang].work_bb;
           document.getElementById("work-sefaz").innerHTML  = data[lang].work_sefaz;
